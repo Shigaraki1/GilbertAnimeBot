@@ -142,7 +142,7 @@ def list_chatbot_chats(update: Update, context: CallbackContext):
     update.effective_message.reply_text(text, parse_mode="HTML")
 
 
-__help__ = f"""
+__help__ = """
 Chatbot utilizes the CoffeeHouse API and allows Saitama to talk and provides a more interactive group chat experience.
 
 *Commands:* 
