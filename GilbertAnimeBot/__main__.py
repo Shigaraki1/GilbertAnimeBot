@@ -66,37 +66,41 @@ Pʀᴏᴛᴇᴄᴛɪɴɢ ɢʀᴏᴜᴘ sɪɴᴄᴇ `{}`,
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add Gilbert Nightra To Your Group",
-                            url=f"t.me/GilbertAnimeBot?startgroup=true")
+                            text=f"᪥Add Yuzaki  To Your Group᪥",
+                            url=f"t.me/TsukasaSuper_bot?startgroup=true")
                     ],
                    [
-                       InlineKeyboardButton(text="[☬ Help ☬]", callback_data="help_back"),
-                       InlineKeyboardButton(text="[☬ Sσυɾƈҽ ☬]", url="https://github.com/AASFCYBERKING/GilbertAnimeBot"),
-                       InlineKeyboardButton(text="[☬ Inline ☬]", switch_inline_query_current_chat=""),
+                       InlineKeyboardButton(text="۞Help ۞", callback_data="help_back"),
+                       InlineKeyboardButton(
+                             text="✎ Support ✎",
+                             url=f"https://t.me/{SUPPORT_CHAT}"),
                      ],
                     [                  
+                       
                        InlineKeyboardButton(
-                             text="🚑 Support",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
-                       InlineKeyboardButton(
-                             text="📢 Updates",
-                             url="https://t.me/PigasusUpdates")
+                             text="⍟Updates⍟",
+                             url="https://t.me/Tsukasa_updates")
                      ], 
     ]
 
 HELP_STRINGS = """
-Whassup Buddy Me Gilbert Nightray is here! 
-I Will Use My Powers To Help You To Manage Your Groups!
-*Main* commands available :
- ☫ /help: PM's you this message.
- ☫ /help <module name>: PM's you info about that module.
- ☫ /settings:
-   ☫ in PM: will send you your settings for all supported modules.
-   ☫ in a group: will redirect you to pm, with all that chat's settings.
-For all command use / [or](https://telegra.ph/file/4942b6e8b63cb630d047b.jpg) ! 
+Hey there! This is Yuzaki Tsukasa  again[.](https://telegra.ph/file/441deb10106e32385d581.jpg)
+━━━━━━━━━━━━━━━━━━━━━━━━
+Tʀᴜsᴛ ɪɴ me I will protect your group ...
+━━━━━━━━━━━━━━━━━━━━━━━━
+Main commands available:
+ ❍ /start: Cʜᴇᴄᴋ Mᴇ... Iꜰ I Aᴍ Aʟɪᴠᴇ Oʀ Nᴏᴛ
+ ❍ /help: Usᴇ Tʜɪs... Iꜰ Yᴏᴜ Nᴇᴇᴅ Mᴏʀᴇ Iɴꜰᴏ Aʙᴏᴜᴛ Mᴇ!
+ ━━━━━━━━━━━━━━━━━━━━━━━━
+ For Issues Report At [Support](t.me/Tsukasa_support)
+ Powered by @DeZilleius
+ ━━━━━━━━━━━━━━━━━━━━━━━━
+{}
+And the following:
 """.format(
-    dispatcher.bot.first_name, ""
-    if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\nKindly use ! for commands if / is not working\n")
+    dispatcher.bot.first_name,
+    "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
+)
 
 GILBERT_IMG = "https://telegra.ph/file/fcc9d75baf8b940963a79.jpg"
 
@@ -158,7 +162,7 @@ def send_help(chat_id, text, keyboard=None):
         chat_id=chat_id,
         text=text,
         parse_mode=ParseMode.MARKDOWN,
-        disable_web_page_preview=True,
+        disable_web_page_preview=False,
         reply_markup=keyboard)
 
 
