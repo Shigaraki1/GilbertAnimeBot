@@ -32,12 +32,7 @@ def wyr(update: Update, context: CallbackContext):
     update.effective_message.reply_text(random.choice(game_strings.WYR_STRINGS))
 
 
-__help__ = """
- • `/truth`*:* asks you a question
- • `/dare`*:* gives you a dare
- • `/tord`*:* can be a truth or a dare
- • `/rather`*:* would you rather
-  """
+
 
 TRUTH_HANDLER = DisableAbleCommandHandler("truth", truth)
 DARE_HANDLER = DisableAbleCommandHandler("dare", dare)
