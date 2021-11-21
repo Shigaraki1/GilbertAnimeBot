@@ -53,14 +53,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-───「 [Gilbert Nightray](https://telegra.ph/file/d6d3e0e4dcffca329ee5a.jpg) 」───
-*Whassup! {},*
-*I am an Anime themed advance group management bot with a lot of New Features.*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-♆ *Uptime:* `{}`
-♆ `{}` *users, across* `{}` *chats.*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-☫ Checkout The Help Buttons To Check My Abilities 𖤐𖤐
+Hᴇʟʟᴏ ᴛʜᴇʀᴇ  {},  [ㅤㅤ](https://telegra.ph/file/bc1c3b5dcd3c94af92063.jpg)
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+I ᴀᴍ Yᴜᴢᴀᴋɪ Tsᴜᴋᴀsᴀ  
+Fʀᴏᴍ Tᴏɴikaku ᴋᴀᴡᴀɪɪ
+━━━━━━━━━━━━━━━━━━━━━━━━
+Pʀᴇss /help ᴛᴏ sᴇᴇ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs
+━━━━━━━━━━━━━━━━━━━━━━━━
+Pʀᴏᴛᴇᴄᴛɪɴɢ ɢʀᴏᴜᴘ sɪɴᴄᴇ `{}`,
 """
 
 buttons = [
