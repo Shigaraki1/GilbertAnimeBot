@@ -55,12 +55,13 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hᴇʟʟᴏ ᴛʜᴇʀᴇ  {},  [ㅤㅤ](https://telegra.ph/file/bc1c3b5dcd3c94af92063.jpg)
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-I ᴀᴍ Yᴜᴢᴀᴋɪ Tsᴜᴋᴀsᴀ  
+I ᴀᴍ Yᴜᴢᴀᴋɪ Tsᴜᴋᴀsᴀ Aᴛ Yᴏᴜʀ sᴇʀᴠɪᴄᴇ
 Fʀᴏᴍ Tᴏɴikaku ᴋᴀᴡᴀɪɪ
 ━━━━━━━━━━━━━━━━━━━━━━━━
 Pʀᴇss /help ᴛᴏ sᴇᴇ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs
 ━━━━━━━━━━━━━━━━━━━━━━━━
 Pʀᴏᴛᴇᴄᴛɪɴɢ ɢʀᴏᴜᴘ sɪɴᴄᴇ `{}`,
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 """
 
 buttons = [
@@ -84,7 +85,7 @@ buttons = [
     ]
 
 HELP_STRINGS = """
-Hey there! This is Yuzaki Tsukasa  again[.](https://telegra.ph/file/441deb10106e32385d581.jpg)
+Hey there! This is Yuzaki Tsukasa  again[.](https://telegra.ph/file/4f6fff36b86274af4fe53.jpg)
 ━━━━━━━━━━━━━━━━━━━━━━━━
 Tʀᴜsᴛ ɪɴ me I will protect your group ...
 ━━━━━━━━━━━━━━━━━━━━━━━━
@@ -556,7 +557,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@AshSerenaFans", "[Even now, I want to stay as your servant ☫](https://telegra.ph/file/e6ac2fadeb9cb4b429b88.mp4)", parse_mode=ParseMode.MARKDOWN) 
+            dispatcher.bot.sendMessage(f"@AshSerenaFans", "[I am here to help you](https://telegra.ph/file/30fbbe64ecf71d197d319.jpg)", parse_mode=ParseMode.MARKDOWN) 
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!")
